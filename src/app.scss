@@ -1,0 +1,26 @@
+.btn{
+
+    background-color: greenyellow;
+    color: blue;
+    font-weight: bold;
+    padding: 1rem;
+    width: 10rem;
+    border-width: 0px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 100px;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+}
